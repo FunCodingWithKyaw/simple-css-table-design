@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Project - 2</title>
+
+	<style>
+
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		
+		.table-wrapper {
+			width: 1020px;
+			margin: 0 auto;
+		}
+
+		.table-wrapper table {
+			border-collapse: collapse;
+			width: 100%;
+
+		}
+
+		.table-wrapper table thead {
+			height: 70px;
+			padding: 10px;
+			text-align: left;
+			color: white;
+			background-color: #017bff;
+
+		}
+
+		.table-wrapper table thead tr th:first-child {
+			padding-left: 10px;
+		}
+
+		.table-wrapper table tbody tr td:first-child {
+			padding-left: 10px;
+		}
+
+		.table-wrapper table tbody tr {
+			height: 70px;
+			padding: 10px;
+			background-color: #eff0f2;
+			border-bottom: 1px #ddd solid;
+		}
+
+		.table-wrapper table tbody tr:last-child {
+			border-bottom: 3px #017bff solid;
+		}
+
+		.table-wrapper table tbody tr:hover {
+			cursor: pointer;
+			background-color: white;
+		}
+
+		h3 {
+			font-size: 30px;
+			font-weight: bold;
+			text-align: center;
+			color: #017bff;
+			margin-top: 50px;
+			margin-bottom: 40px;
+		}
+
+		@media(max-width:  1230px) {
+			.table-wrapper {
+				width: 90%;
+			}
+		}
+
+	</style>
+</head>
+<body>
+
+	<h3>HTML CUSTOM TABLE DESIGN</h3>
+
+	<div class="table-wrapper">
+		<table>
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Email</th>
+					<th>Age</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Kyaw Htet</td>
+					<td>kyaw@gmail.com</td>
+					<td>20</td>
+				</tr>
+				<tr>
+					<td>Kyaw Htet</td>
+					<td>kyaw@gmail.com</td>
+					<td>20</td>
+				</tr>
+				<tr>
+					<td>Kyaw Htet</td>
+					<td>kyaw@gmail.com</td>
+					<td>20</td>
+				</tr>
+				<tr>
+					<td>Kyaw Htet</td>
+					<td>kyaw@gmail.com</td>
+					<td>20</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+</body>
+</html>
